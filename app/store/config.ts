@@ -21,7 +21,7 @@ const DEFAULT_CONFIG = {
   sendBotMessages: true as boolean,
   submitKey: SubmitKey.CtrlEnter as SubmitKey,
   avatar: "1f603",
-  fontSize: 14,
+  fontSize: 15,
   theme: Theme.Auto as Theme,
   tightBorder: false,
   sendPreviewBubble: true,
