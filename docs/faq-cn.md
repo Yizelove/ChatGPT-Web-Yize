@@ -4,10 +4,6 @@
 1. 询问ChatGPT / Bing / 百度 / Google等。
 2. 询问网友。请提供问题的背景信息和碰到问题的详细描述。高质量的提问容易获得有用的答案。
 
-# 部署相关问题
-
-各种部署方式详细教程参考：https://rptzik3toh.feishu.cn/docx/XtrdduHwXoSCGIxeFLlcEPsdn8b  
-
 ## 为什么 Docker 部署版本一直提示更新
 Docker 版本相当于稳定版，latest Docker 总是与 latest release version 一致，目前我们的发版频率是一到两天发一次，所以 Docker 版本会总是落后最新的提交一到两天，这在预期内。
 
@@ -30,8 +26,6 @@ Docker 版本相当于稳定版，latest Docker 总是与 latest release version
 2. 部署项目时，设置环境变量CODE（支持多个密码逗号分隔）。设置访问密码后，用户需要在设置界面输入访问密码才可以使用。参见[相关说明](https://github.com/Yidadaa/ChatGPT-Next-Web/blob/main/README_CN.md#%E9%85%8D%E7%BD%AE%E9%A1%B5%E9%9D%A2%E8%AE%BF%E9%97%AE%E5%AF%86%E7%A0%81)
 
 ## 为什么我部署的版本没有流式响应
-> 相关讨论：[#386](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/386)
-
 如果你使用 ngnix 反向代理，需要在配置文件中增加下列代码：
 ```
 # 不缓存，支持流式输出
@@ -137,11 +131,7 @@ OpenAI只接受指定地区的信用卡（中国信用卡无法使用）。一�
 之后等待邮件消息。
 - 开通 ChatGPT Plus 不代表有 GPT-4 权限，两者毫无关系。
 
-## 如何使用 Azure OpenAI 接口
-请参考：[#371](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/371)
-
 ## 为什么我的 Token 消耗得这么快？
-> 相关讨论：[#518](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518)
 - 如果你有 GPT 4 的权限，并且日常在使用 GPT 4 api，那么由于 GPT 4 价格是 GPT 3.5 的 15 倍左右，你的账单金额会急速膨胀；
 - 如果你在使用 GPT 3.5，并且使用频率并不高，仍然发现自己的账单金额在飞快增加，那么请马上按照以下步骤排查：
   - 去 openai 官网查看你的 api key 消费记录，如果你的 token 每小时都有消费，并且每次都消耗了上万 token，那你的 key 一定是泄露了，请立即删除重新生成。**不要在乱七八糟的网站上查余额。**
