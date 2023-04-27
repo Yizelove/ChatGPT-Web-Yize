@@ -52,7 +52,7 @@ fi
 
 # Clone the repository and install dependencies
 git clone https://github.com/Yizelove/ChatGPT-Web-Yize
-cd ChatGPT-Next-Web
+cd ChatGPT-Web-Yize
 yarn install
 
 # Prompt user for environment variables
