@@ -9,7 +9,7 @@
 3. 选择 Project。
 
 ![vercel-create-2](./images/vercel/vercel-create-2.jpg)
-1. 在 Import Git Repository 处，搜索 chatgpt-next-web；
+1. 在 Import Git Repository 处，搜索 chatgpt-web-yize；
 2. 选中新 fork 的项目，点击 Import。
 
 ![vercel-create-3](./images/vercel/vercel-create-3.jpg)
@@ -19,9 +19,6 @@
 4. 点击 Add 确认增加环境变量；
 5. 请确保你添加了 OPENAI_API_KEY，否则无法使用；
 6. 点击 Deploy，创建完成，耐心等待 5 分钟左右部署完成。
-
-## 如何增加自定义域名
-[TODO]
 
 ## 如何更改环境变量
 ![vercel-env-edit](./images/vercel/vercel-env-edit.jpg)
