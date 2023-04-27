@@ -5,11 +5,11 @@
 
 一键免费部署你的私人 ChatGPT 网页应用。
 
-[演示 Demo](https://chat.yize.me/) / [反馈 Issues](https://github.com/Yizelove/ChatGPT-Next-Web/issues)
+[演示 Demo](https://chat.yize.me/) / [反馈 Issues](https://github.com/Yizelove/ChatGPT-Web-Yize/issues)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYizelove%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYizelove%2FChatGPT-Web-Yize&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-web-yize&repository-name=ChatGPT-Web-Yize)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yizelove/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yizelove/ChatGPT-Web-Yize)
 
 ![主界面](./docs/images/cover.png)
 
@@ -29,7 +29,7 @@
 
 1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. 点击右侧按钮开始部署：
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYizelove%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYizelove%2FChatGPT-Web-Yize&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-web-yize&repository-name=ChatGPT-Web-Yize)，直接使用 Github 账号登录即可，记得在环境变量页填入 API Key 和[页面访问密码](#配置页面访问密码) CODE；
 3. 部署完毕后，即可开始使用；
 4. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
 
@@ -104,7 +104,7 @@ OpenAI 接口代理 URL，如果你手动配置了 openai 接口代理，请填�
 
 点击下方按钮，开始二次开发：
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yizelove/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yizelove/ChatGPT-Web-Yize)
 
 在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
 
@@ -152,7 +152,7 @@ docker run -d -p 3000:3000 \
 在控制台运行下方命令：
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/Yizelove/ChatGPT-Next-Web/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/Yizelove/ChatGPT-Web-Yize/main/scripts/setup.sh)
 ```
 
 ⚠️注意：如果你安装过程中遇到了问题，请使用 docker 部署。
